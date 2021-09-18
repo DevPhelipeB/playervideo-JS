@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/estilo.css">
+    <script src="_js/script-video.js"></script>
+    <title>Vídeo Esporte Boxing</title>
+</head>
+
+<body class="corpo">
+
+    <video id="video1" width="480" height="270" poster="_imagens/img_boxing.jpg">
+        <source src="_media/boxing.mp4" type="video/mp4">
+        <h2>Vídeo não suportado</h2>
+    </video>
+    <br>
+
+    <div>
+
+    
+        <button id="play_pause" class="play" onclick="play_pause()">Play ▶</button>
+
+        <button type="button" class="vol" value="AumentaVol" onclick="aumetaVolume()">🔊 +</button>
+
+        <button type="button" class="vol" value="ReduzVol" onclick="ReduzVolume()">🔉 -</button>
+
+        <button type="button" class="muted" value="Mute" onclick="Muted()">🔇 Mute</button>
+
+        <button type="button" class="reso" value="Ampliar" onclick="changeSize(720,405)"> ︽ Ampliar</button>
+
+        <button type="button" class="reso" value="Reduzir" onclick="changeSize(240,135)">︾ Reduzir</button>
+
+        <button type="button" class="default" value="TelaNormal" onclick="changeSize(480,270)">⤯⤰ Tela Normal</button>
+
+        <button type="button" class="full" value="FullScreen" onclick="telaCheia()"> ⛶  Tela Cheia</button>
+
+        
+
+        
+
+    </div>
+
+</body>
+
+</html>
